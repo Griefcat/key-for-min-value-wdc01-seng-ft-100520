@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   key = " "
-  if name_hash[value] < min_value do
+    
     key = :key
 end
 end
@@ -18,5 +18,7 @@ passengers.each do |suite, name|
 end
  
 winner
+
+
 
 
