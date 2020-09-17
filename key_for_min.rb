@@ -3,7 +3,8 @@
 
 def key_for_min_value(name_hash)
   key = " "
-    
+  name_hash.each do |key, value|
+    if :value < 100
     key = :key
 end
 end
@@ -19,6 +20,10 @@ end
  
 winner
 
-
+hash = {key1: "value1", key2: "value2"}
+ 
+hash.each do |key, value|
+  puts "#{key}: #{value}"
+end
 
 
